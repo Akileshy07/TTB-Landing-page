@@ -1,0 +1,206 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .navbar{
+        display: none;
+    }
+    .home h2{
+        font-size: 46px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .home h4{
+        font-size: 20px;
+        margin-top: 80px;
+        text-align: left;
+    }
+    .home h4 .cross{
+        text-decoration: none;
+    }
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .left{
+        margin-left: 0;
+    }
+    .left h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    ul li{
+        font-size: 14px;
+        text-align: center;
+        list-style: none;
+    }
+    ul li h5{
+        font-size: 14px;
+        text-align: center;
+    }
+    ul li span{
+        font-size: 14px;
+    }
+    .right h4{
+        font-size: 23.235px;
+        margin-top: 25px;
+        font-weight: 500;
+    }
+    .right{
+        /* width: 300px; */
+height: 475px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #213360;
+margin: 0 auto;
+padding: 0 20px;
+
+    }
+    .second{
+        padding: 15px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+    }
+    .form-group input{
+        width: 267.2px;
+height: 34.175px;
+flex-shrink: 0;
+margin-left: 0;
+margin-right: 40px;
+
+    }
+    .form-group label{
+        color: #FFF;
+
+font-size: 14.522px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+   .right .btn{
+        font-size: 14px;
+        width: 161.191px;
+height: 32.066px;
+flex-shrink: 0;
+border-radius: 7.261px;
+background: #0FA958;
+box-shadow: 0px 2.90435px 2.90435px 0px rgba(0, 0, 0, 0.25);
+    }
+    .right h5{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .canada{
+        font-size: 20px;
+    }
+    .fourth{
+        background: rgba(63, 117, 154, 0.09);
+box-shadow: 0px 4.04494px 4.04494px 0px rgba(0, 0, 0, 0.25);
+    }
+    .phrase{
+        position: relative;
+        left: 0px;
+    }
+    .fourth ol li{
+        font-size: 12px;
+        font-weight: 400;
+        color: #09324F;
+    }
+
+    /* fifth  */
+    .card1{
+        width: 93.521px;
+height: 130.515px;
+flex-shrink: 0;
+margin: 20px 5px;
+    }
+    .l-arrow , .r-arrow{
+        width: 15.886px;
+height: 15.774px;
+flex-shrink: 0;
+    }
+    .l-arrow{
+       left: 1px;
+        bottom: 20px;
+    }
+    .clg{
+        font-size: 10px;
+        left: 20px;
+        bottom: -35px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .sixth{
+        background-size: 70%;
+        height: 226px;
+    }
+    .free-btn{
+        font-size: 14px;
+        padding: 5px 15px;
+        margin: 5px auto;
+    }
+    .footer{
+        margin: 0;
+        padding: 20px;
+    }
+    .card{
+        font-size: 14px;
+    }
+    .card h5{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .card img{
+        display: none;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+   
+   
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+    
+     html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+   
+  
+     
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+     
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+     
+}
